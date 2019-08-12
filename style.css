@@ -1,0 +1,121 @@
+header{
+    text-align: center;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    height:150px;
+    background-color:white;
+    border-bottom:solid #ddd 1px;
+    border-radius: 10px;
+}
+
+#name{
+    background-color:#FF5733  ;
+    color:white;
+    border:0;
+    font-family: 'Quicksand' , 'Arial' , sans-serif;
+    height:150;
+    width:240px;
+    margin-right:550px;
+    border-radius:0;
+    transition:0;
+    font-size:30px;
+    text-align: center;
+}
+button{
+    height:30px;
+    border:0;
+    background-color:white;
+    border-radius:10px;
+   
+   
+}
+button:hover{
+    color:white;
+    background-color:#dddddd;
+}
+#current{
+    background-color:#dddddd;
+    border-radius:10px
+}
+h1{
+    font-family: 'Quicksand' , 'Arial' , sans-serif;
+    color:#C70039;
+}
+body{
+    background-color:lightgrey;
+    font-family: 'Quicksand' , 'Arial' , sans-serif;
+    font-size:18px;
+    color:#342B2F;
+
+}
+#main{
+    position:relative;
+    background-color:white;
+    width:90%;
+    margin:10px auto;
+    border:solid black 2px;
+    border-color:#cccccc;
+    padding:10px;
+}
+#footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    background-color:#342B2F;
+    border-top:solid #FF5733 10px;
+    width:100%;
+    height:10%;
+    font-size:10px;
+    text-align:center;
+}
+}
+#submit{
+    width:60px;
+    height:30px;
+    background-color:#FF5733  ;
+    color:white;
+    border-radius:0;
+    margin:5px;
+}
+#portfol{
+    width:300px;
+    height:270px;
+    margin:20px;
+}
+#img1{
+    float:left;
+    position:relative;
+}
+#img2{
+    position:relative;
+}
+#imgtext1{
+    position:absolute;
+    top:200px;
+    left:20px;
+    background-color:#FF5733;
+    width:300px;
+    height:75px;
+    color:white;
+    text-align:center;
+    vertical-align:middle;
+}
+#imgtext2{
+    position:absolute;
+    top:200px;
+    right:300px;
+    background-color:#FF5733;
+    width:300px;
+    height:75px;
+    color:white;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
